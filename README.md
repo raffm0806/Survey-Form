@@ -1,6 +1,6 @@
 # 📋 HTML First Exam - Survey Form
 
-Questo progetto fa parte della certificazione **Responsive Web Design** di **freeCodeCamp**[cite: 16]. L'obiettivo principale è stato la realizzazione di un modulo di sondaggio (*Survey Form*)[cite: 16] strutturato interamente in HTML5 semantico, progettato per raccogliere input dagli utenti e superare tutti i test di validazione automatica.
+Questo progetto fa parte della certificazione **Responsive Web Design** di **freeCodeCamp**. L'obiettivo principale è stato la realizzazione di un modulo di sondaggio (*Survey Form*) strutturato interamente in HTML5 semantico, progettato per raccogliere input dagli utenti e superare tutti i test di validazione automatica.
 
 ---
 
