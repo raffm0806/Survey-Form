@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">
+      HTML First Exam
+    </h1>
+    <br>
+    <p id="description">
+     This is the first exam of html on freecodecamp
+    </p>
+    <br>
+    <form id="survey-form">
+      <label id="name-label" for="name">name-label</label>
+      <input type="text" id="name" name="name-label" placeholder="insert your name" required>
+      <input type="submit"><br>
+      <label id="email-label" for="email">email-label</label>
+      <input type="email" id="email" name="email-label" placeholder="insert your email" required>
+      <input type="submit"><br>
+      <label id="number-label" for="number">number-label</label>
+      <input type="number" id="number" name="number-label" placeholder="insert a number" min="1" max="1000000000" required>
+      <input type="submit"><br>
+      <label for="dropdown">Prima selezione</label>
+      <select name="Prima selezione" id="dropdown">
+        <option class="name">Red</option>
+        <option class="name">Green</option>
+      </select><br>
+      <input type="radio" name="scelta" value="Opzione 1">Opzione 1
+      <input type="radio" name="scelta" value="Opzione 2">Opzione 2
+      <br>
+      <input type="checkbox" name="preferenzauno" value="HTML">HTML
+      <input type="checkbox" name="preferenzadue" value="CSS">CSS
+      <br>
+      <textarea id="textarea" name="textarea" placeholder="additional comments"></textarea>
+      <br>
+      <input type="submit" id="submit">
+      
+
+
+
+
+  </body>
+</html>
