@@ -1,37 +1,26 @@
 # 📋 HTML First Exam - Survey Form
 
-Questo progetto fa parte della certificazione **Responsive Web Design** di **freeCodeCamp**[cite: 16]. L'obiettivo è stato quello di realizzare un modulo di sondaggio (*Survey Form*)[cite: 16] strutturato correttamente in HTML5 e arricchito con stili e animazioni personalizzate in CSS.
+Questo progetto fa parte della certificazione **Responsive Web Design** di **freeCodeCamp**[cite: 16]. L'obiettivo principale è stato la realizzazione di un modulo di sondaggio (*Survey Form*)[cite: 16] strutturato interamente in HTML5 semantico, progettato per raccogliere input dagli utenti e superare tutti i test di validazione automatica.
 
 ---
 
-## 🚀 Funzionalità e Requisiti Implementati
+## 🚀 Caratteristiche e Requisiti Implementati
 
-Il form rispetta tutti i rigorosi test di convalida di freeCodeCamp, includendo:
-* **Struttura HTML Semantica**: Utilizzo di tag standard come `<h1>`, `<p>`, `<form>`, `<label>`, `<input>`, `<select>` e `<textarea>`.
-* **Campi Obbligatori e Validazione**: 
-  * Campi di testo e email con validazione integrata del browser (`type="email"`, `required`).
-  * Campo numerico con limitazione di intervallo (`min` e `max`).
-* **Elementi Interattivi**:
-  * Menu a tendina (`<select>`) con opzioni selezionabili.
-  * Pulsanti di scelta (*Radio Buttons*) raggruppati correttamente.
-  * Caselle di spunta (*Checkboxes*) per le preferenze.
-  * Area di testo (`<textarea>`) per commenti aggiuntivi.
-* **Design e Stile CSS**:
-  * Sfondo personalizzato a schermo intero (`background-size: cover`)[cite: 14].
-  * Effetti di transizione dinamici al passaggio del mouse (`:hover`, `transform: scale/rotate`).
-
----
-
-## 🛠️ Tecnologie Utilizzate
-
-* **HTML5** per la struttura e la semantica dei dati.
-* **CSS3** per la grafica, il posizionamento e le animazioni/transizioni.
+Il modulo gestisce correttamente diversi tipi di campi ed elementi interattivi:
+* **Struttura HTML5 Semantica**: Uso di tag standard tra cui `<h1>`, `<p>`, `<form>`, `<label>`, `<input>`, `<select>` e `<textarea>`.
+* **Validazione dei Campi**: 
+  * Campi obbligatori (`required`) per nome ed email.
+  * Controllo nativo del browser per gli indirizzi email (`type="email"`).
+  * Campo numerico vincolato da un intervallo specifico tramite gli attributi `min` e `max`.
+* **Scelte e Opzioni**:
+  * Menu a tendina (`<select>`) con opzioni dedicate.
+  * Pulsanti di scelta singola (*Radio Buttons*) raggruppati logicamente tramite l'attributo `name`.
+  * Caselle di spunta (*Checkboxes*) per la selezione multipla delle preferenze.
+* **Invio dei Dati**: Pulsante di invio dedicato dotato dell'attributo `id="submit"`.
 
 ---
 
 ## 📁 Struttura del Progetto
 
 ```text
-├── Page 8.html       # File principale con la struttura del form
-├── Page 8.css        # Foglio di stile per layout, colori e animazioni
-└── marisa.png        # Immagine di sfondo personalizzata
+└── index.html       # File principale con la struttura completa del form
